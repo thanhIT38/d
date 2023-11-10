@@ -111,6 +111,7 @@ body{
 /*container*/
 .page1 {
   width: 100%;
+  object-fit: cover;
   height: 994px;
   padding-top: 5vw;
   background-image: url(./img/nền.png);
@@ -679,7 +680,7 @@ h4 {
   font-weight: 400;
 }
 .page3 {
-  width: 394px;
+  width: 355px;
   height: auto;
   flex-shrink: 0;
 }
@@ -751,7 +752,7 @@ h4 {
   object-fit: cover;
 }
 .tong {
-  width: 394px;
+  width: 355px;
   margin: 0 24px 0 25px;
 }
 .wrapper_img img {
