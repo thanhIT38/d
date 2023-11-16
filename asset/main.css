@@ -115,7 +115,7 @@ body{
   object-fit: cover;
   height: 994px;
   padding-top: 5vw;
-  background:  url(./img/nền.png), lightgray -308px -182.511px / 246.977% 146.03% no-repeat, #FFF;
+  background-image:  url(./img/nền.png);
   background-size: 100vw;
   background-repeat: no-repeat;
   display: flex;
@@ -538,7 +538,7 @@ footer .mxh {
   display: none;
 }
 
-@media (max-width:430px) {
+@media only screen and (max-width: 980px){
   .header .logo-search img {
     height: auto;
     width: 60px;
@@ -598,8 +598,9 @@ footer .mxh {
   font-size: 20px;
   font-weight: 700;
 }
-
-.page1 .h5_1{
+.page1 .pages1_text {height: 100px;
+}
+.page1 .pages1_text .h5_1{
   width: 281px;
   margin-top: -800px;
 }
@@ -612,8 +613,9 @@ h5{
 .ganday{
   display: none;
 }
+
 .page2{
-  margin-left: 22px;
+  margin-left: 10px;
   padding-top: 0;
 }
 .slide{
@@ -652,18 +654,41 @@ h5{
   font-size: 15px;
   width: 378px;
   margin: 0 30px 0 18px;
+  text-align: justify;
 }
 .page2 .Tableofcontent {
   background-color: #c3c3c3;
   display: flex;
+  overflow: hidden;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 29px 24px 49px 17px;
   width: 367px;
 }
+
+
+.page4 p{
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;text-wrap: wrap;
+}
+p{
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: normal;
+}
 .title2 {
   font-size: 15px;
+  text-align: justify;
   font-weight: 400;
   width: 378px;
 }
@@ -686,8 +711,8 @@ h4 {
   flex-shrink: 0;
 }
 .page3 img {
-  width: 397px;
-  height: 512px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   margin-top: 24px;
   flex-shrink: 0;
@@ -701,10 +726,11 @@ h4 {
   margin-top: 25px;
 }
 .page5 img {
-  width: 381px;
-  height: auto;
+  width: 400px;
+  height: 300px;
   flex-shrink: 0;
   object-fit: cover;
+  margin-top: 18px;
 }
 .page5 p {
   font-size: 15px;
@@ -721,22 +747,22 @@ h4 {
   width: 378px;
 }
 .page6 img {
-  width: 380px;
-  height: 566px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
+  margin-bottom: 148px;
+  margin-top: 31px;
   flex-shrink: 0;
 }
-.page7 {
-  width: 391px;
-  margin-top: 41px;
-}
+
 .page7 p {
   font-size: 15px;
   font-weight: 400;
 }
 .page7 img {
-  width: 393px;
-  height: 566px;
+   width: 400px;
+   margin-top: 48px;
+  height: 300px;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -744,11 +770,11 @@ h4 {
   display: none;
 }
 .text-end{
-  width: 402px;
+  width: 402px;margin-bottom: 32px;margin-top: 75px;
 }
 .page4 img {
-  width: 381px;
-  height: 566px;
+  width: 400px;
+  height: 300px;
   flex-shrink: 0;
   object-fit: cover;
 }
@@ -762,9 +788,32 @@ h4 {
   height: 230px;
   border-radius: 30px;
 }
+.page1 .h5_1 {
+  margin-top: -405px;
+  width: 281px;
+  color: #000;
+  text-align: center;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  height: 152px;
+  flex-shrink: 0;
+}
+.page1 .h5_2 {
+  color: #28FF7E;
+  width: 281px;
+  font-family: Inika;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
 .page1{
-  width: 430px;
-  background-size: contain;
+  width: 100vw;
+  background-size: cover;
+  height: 700px;
   
 }
 .slide {
@@ -781,10 +830,13 @@ footer {
   margin-top: 30px;
 }
 .header .searchmobi {
-    display: none;
+    display: flex;
 }
 footer img{
   margin: 0;
+}
+.header .menumobi {
+  display: block;
 }
 
 footer .itemsfooter {
