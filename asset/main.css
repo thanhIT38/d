@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap&family=Inika:wght@700&family=Inter:wght@400;500");
 
 /*header*/
 .mob-nav {
@@ -320,7 +320,7 @@ h4 {
 }
 .page3 {
   width: 746px;
-  height: 566px;
+  height: auto;
   flex-shrink: 0;
   overflow: hidden;
 }
@@ -428,7 +428,7 @@ h4 {
 /*bai viet gan day*/
 
 .slidebar{
-    top: 75vw;
+    top: 77vw;
     right: 5vw;
     position: absolute;
 }
@@ -436,6 +436,7 @@ h4 {
 .slidebar .bai{
     height: 100px;
     width: 20vw;
+    overflow: hidden;
 }
 
 .slidebar .bai img{
@@ -528,9 +529,7 @@ footer .mxh {
   color: white;
 }
 
-.menu1 {
-  margin-top: 175px;
-}
+
 .ganday {
   margin-top: 283px;
 }
@@ -677,15 +676,7 @@ h5{
   font-weight: 400;
   line-height: normal;text-wrap: wrap;
 }
-p{
-  color: #000;
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  text-align: justify;
-  font-weight: 400;
-  line-height: normal;
-}
+
 .title2 {
   font-size: 15px;
   text-align: justify;
@@ -703,6 +694,10 @@ h4 {
 
 .page3 p {
   font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  font-family: Inter;
+  text-align: justify;
   font-weight: 400;
 }
 .page3 {
@@ -734,13 +729,19 @@ h4 {
 }
 .page5 p {
   font-size: 15px;
-  margin: 0;
+  font-weight: 400;
+  color: #000;
+  font-family: Inter;
+  text-align: justify;
   font-weight: 400;
 }
 .page6 p {
   font-size: 15px;
   font-weight: 400;
-  margin-top: 0;
+  color: #000;
+  font-family: Inter;
+  text-align: justify;
+  font-weight: 400;
 }
 .page6 {
   margin-top: 31px;
@@ -758,6 +759,10 @@ h4 {
 .page7 p {
   font-size: 15px;
   font-weight: 400;
+  color: #000;
+  font-family: Inter;
+  text-align: justify;
+  font-weight: 400;
 }
 .page7 img {
    width: 400px;
@@ -770,6 +775,12 @@ h4 {
   display: none;
 }
 .text-end{
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  font-family: Inter;
+  text-align: justify;
+  font-weight: 400;
   width: 402px;margin-bottom: 32px;margin-top: 75px;
 }
 .page4 img {
