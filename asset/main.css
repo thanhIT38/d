@@ -115,7 +115,7 @@ body{
   object-fit: cover;
   height: 994px;
   padding-top: 5vw;
-  background-image: url(./img/nền.png);
+  background:  url(./img/nền.png), lightgray -308px -182.511px / 246.977% 146.03% no-repeat, #FFF;
   background-size: 100vw;
   background-repeat: no-repeat;
   display: flex;
@@ -764,7 +764,8 @@ h4 {
 }
 .page1{
   width: 430px;
-  background-size: 932px;
+  background-size: contain;
+  
 }
 .slide {
   width: 100%;
@@ -779,7 +780,9 @@ footer {
   padding: 0;
   margin-top: 30px;
 }
-
+.header .searchmobi {
+    display: none;
+}
 footer img{
   margin: 0;
 }
